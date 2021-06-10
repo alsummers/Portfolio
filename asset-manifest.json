@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3b212083.chunk.css",
+    "main.js": "/portfolio/static/js/main.c136e0e7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c136e0e7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.675c0dec.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.675c0dec.js.map",
+    "static/js/2.4cc21d98.chunk.js": "/portfolio/static/js/2.4cc21d98.chunk.js",
+    "static/js/2.4cc21d98.chunk.js.map": "/portfolio/static/js/2.4cc21d98.chunk.js.map",
+    "static/js/3.83a2ba3c.chunk.js": "/portfolio/static/js/3.83a2ba3c.chunk.js",
+    "static/js/3.83a2ba3c.chunk.js.map": "/portfolio/static/js/3.83a2ba3c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.3b212083.chunk.css.map": "/portfolio/static/css/main.3b212083.chunk.css.map",
+    "static/js/2.4cc21d98.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4cc21d98.chunk.js.LICENSE.txt",
+    "static/media/Allison_Summers_Resume.2d66bc5a.pdf": "/portfolio/static/media/Allison_Summers_Resume.2d66bc5a.pdf",
+    "static/media/css_logo.b6510966.png": "/portfolio/static/media/css_logo.b6510966.png",
+    "static/media/html_logo.30310bc1.png": "/portfolio/static/media/html_logo.30310bc1.png",
+    "static/media/ioS_profile.3263933b.jpg": "/portfolio/static/media/ioS_profile.3263933b.jpg",
+    "static/media/js_logo.8225f373.png": "/portfolio/static/media/js_logo.8225f373.png",
+    "static/media/portfolio_screen_logo_bw_sm.4df3ae10.png": "/portfolio/static/media/portfolio_screen_logo_bw_sm.4df3ae10.png",
+    "static/media/trails-end-app-screens.12825367.png": "/portfolio/static/media/trails-end-app-screens.12825367.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.675c0dec.js",
+    "static/js/2.4cc21d98.chunk.js",
+    "static/css/main.3b212083.chunk.css",
+    "static/js/main.c136e0e7.chunk.js"
+  ]
+}
