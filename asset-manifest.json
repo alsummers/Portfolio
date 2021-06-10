@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d72990e1.chunk.css",
-    "main.js": "/portfolio/static/js/main.9f61b042.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9f61b042.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.675c0dec.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.675c0dec.js.map",
-    "static/js/2.7d5bb328.chunk.js": "/portfolio/static/js/2.7d5bb328.chunk.js",
-    "static/js/2.7d5bb328.chunk.js.map": "/portfolio/static/js/2.7d5bb328.chunk.js.map",
-    "static/js/3.83a2ba3c.chunk.js": "/portfolio/static/js/3.83a2ba3c.chunk.js",
-    "static/js/3.83a2ba3c.chunk.js.map": "/portfolio/static/js/3.83a2ba3c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7179ac14.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7179ac14.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a941773e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a941773e.js.map",
+    "static/js/2.02d0a3cb.chunk.js": "/portfolio/static/js/2.02d0a3cb.chunk.js",
+    "static/js/2.02d0a3cb.chunk.js.map": "/portfolio/static/js/2.02d0a3cb.chunk.js.map",
+    "static/js/3.0db4b08f.chunk.js": "/portfolio/static/js/3.0db4b08f.chunk.js",
+    "static/js/3.0db4b08f.chunk.js.map": "/portfolio/static/js/3.0db4b08f.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.d72990e1.chunk.css.map": "/portfolio/static/css/main.d72990e1.chunk.css.map",
-    "static/js/2.7d5bb328.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7d5bb328.chunk.js.LICENSE.txt",
+    "static/js/2.02d0a3cb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02d0a3cb.chunk.js.LICENSE.txt",
     "static/media/Allison_Summers_Resume.2d66bc5a.pdf": "/portfolio/static/media/Allison_Summers_Resume.2d66bc5a.pdf",
     "static/media/css_logo.b6510966.png": "/portfolio/static/media/css_logo.b6510966.png",
     "static/media/html_logo.30310bc1.png": "/portfolio/static/media/html_logo.30310bc1.png",
@@ -21,9 +21,9 @@
     "static/media/trails-end-app-screens.12825367.png": "/portfolio/static/media/trails-end-app-screens.12825367.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.675c0dec.js",
-    "static/js/2.7d5bb328.chunk.js",
+    "static/js/runtime-main.a941773e.js",
+    "static/js/2.02d0a3cb.chunk.js",
     "static/css/main.d72990e1.chunk.css",
-    "static/js/main.9f61b042.chunk.js"
+    "static/js/main.7179ac14.chunk.js"
   ]
 }
