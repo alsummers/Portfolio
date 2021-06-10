@@ -1,0 +1,41 @@
+
+.download-img{
+    width: 35px;
+    opacity: .25;
+    animation-name: bounce; 
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    /* animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.spacer {
+    height: 40px;
+}
+
+.row{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.download-link{
+    font-size: 2em;
+    font-weight:300;
+    color: lightgray;
+    text-decoration: none;
+    /* background: -webkit-linear-gradient(#333, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter; */
+}
+
+@keyframes bounce {
+    from { 
+      transform: translateY(0) scale(1);
+    }
+    to   { 
+      transform: translateY(20px) scale(1);
+    }
+  }

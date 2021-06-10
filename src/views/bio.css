@@ -1,0 +1,28 @@
+.avatar {
+    width: 5em;
+    height: 5em;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.photo {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+.divider{
+    height: 2px;
+    margin-top: 4em;
+    background-color: lightgray;
+    width: 33%;
+    border-radius: 50%;
+}
+.header-row{
+    justify-content: space-evenly;
+    display: flex
+}
+
+.bio-text{
+    font-weight: lighter;
+}
