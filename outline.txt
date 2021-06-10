@@ -1,5 +1,0 @@
-1. Main
-2. Bio
-3. Portfolio
-4. Resume
-5. Links and Contact
