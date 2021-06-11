@@ -1,6 +1,6 @@
 
 .download-img{
-    width: 35px;
+    width: 60px;
     opacity: .25;
     animation-name: bounce; 
     animation-duration: 0.7s;
@@ -11,17 +11,21 @@
 
 }
 
+.resume-title{
+  font-size: 3em;
+  color: gray;
+  font-weight: 300;
+}
+
 .spacer {
     height: 40px;
 }
-
-.row{
-    padding-top: 1em;
-    padding-bottom: 1em;
+.download-content {
+  padding-top: 6em;
 }
 
 .download-link{
-    font-size: 2em;
+    font-size: 3em;
     font-weight:300;
     color: lightgray;
     text-decoration: none;

@@ -1,0 +1,122 @@
+.slide-right-transition{
+    position: relative;
+    animation-name: slide-right;
+    animation-duration: 4s;
+}
+
+@keyframes slide-right {
+    0%   { left:-200px; top:0px;}
+    25%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+.slide-right-transition-fade-in{
+    position: relative;
+    animation-name: slide-right-fade-in;
+    animation-duration: 4s;
+}
+
+@keyframes slide-right-fade-in {
+    0%   { left:-200px; top:0px; opacity: 0}
+    25%  { left:0px; top:0px; opacity: 1}
+    100% { left:0px; top:0px; opacity: 1}
+}
+
+
+.slide-left-transition{
+    position: relative;
+    animation-name: slide-left;
+    animation-duration: 4s;
+
+}
+
+@keyframes slide-left {
+    0% {right: -200px; top: 0px}
+    25% {right: 0px; top: 0px}
+    100% {right: 0px; top: 0px}
+}
+
+.slide-left-transition-fade-in{
+    position: relative;
+    animation-name: slide-left-fade-in;
+    animation-duration: 4s;
+
+}
+
+@keyframes slide-left-fade-in {
+    0% {right: -200px; top: 0px; opacity: 0}
+    25% {right: 0px; top: 0px; opacity: 1}
+    100% {right: 0px; top: 0px; opacity: 1}
+}
+
+.slide-down-transition{
+    position: relative;
+    animation-name: slide-down;
+    animation-duration: 4s;
+}
+
+@keyframes slide-down {
+    0% {right: 0px; top: -200px}
+    25% {right: 0px; top: 0px}
+    100% {right: 0px; top: 0px}
+}
+
+.slide-down-transition-fade-in{
+    position: relative;
+    animation-name: slide-down-fade-in;
+    animation-duration: 4s;
+}
+
+@keyframes slide-down-fade-in {
+    0% {right: 0px; top: -200px; opacity: 0;}
+    25% {right: 0px; top: 0px; opacity: 1}
+    100% {right: 0px; top: 0px; opacity: 1;}
+}
+
+.slide-up-transition{
+    position: relative;
+    animation-name: slide-up;
+    animation-duration: 4s;
+}
+
+@keyframes slide-up {
+    0% {right: 0px; bottom: -200px}
+    25% {right: 0px; bottom: 0px}
+    100% {right: 0px; bottom: 0px}
+}
+
+.slide-up-transition-fade-in{
+    position: relative;
+    animation-name: slide-up-fade-in;
+    animation-duration: 4s;
+}
+
+@keyframes slide-up-fade-in {
+    0% {right: 0px; bottom: -200px; opacity: 0}
+    25% {right: 0px; bottom: 0px; opacity: 1}
+    100% {right: 0px; bottom: 0px; opacity: 1}
+}
+
+.slide-up-transition-fade-in-delay{
+    position: relative;
+    animation-name: slide-up-fade-in-delay;
+    animation-duration: 5s;
+}
+
+@keyframes slide-up-fade-in-delay {
+    0% {right: 0px; bottom: -200px; opacity: 0}
+    40% {right: 0px; bottom: 0px; opacity: 1}
+    100% {right: 0px; bottom: 0px; opacity: 1}
+}
+
+.fade-in {
+    position: relative;
+    animation-name: fade-in;
+    animation-duration: 4s
+}
+
+@keyframes fade-in {
+    0% {opacity: 0}
+    75% {opacity: 1;}
+    100%{opacity: 1}
+}

@@ -11,6 +11,7 @@ import js from '../img/logos/js_logo.png';
 import download from '../img/logos/download_arrow_sm.png';
 import pdf from './Allison_Summers_Resume.pdf';
 import './resume.css';
+import '../components/animation.css';
 
 class ResumePage extends Component {
     state = { 
@@ -27,27 +28,25 @@ class ResumePage extends Component {
 
     buildOverview(){
         var children = [];
-        children.push(<div>Overview</div>)
 
         var images = []
         for(let i = 0; i < this.state.logos.length; i++){
             images.push(<IconComponent isLinked={false} logo={this.state.logos[i]} width="25px"/>)
         }
         children.push(<Row>{images}</Row>)
-        return <div>{children}</div>
+        return <div className="slide-left-transition-fade-in">{children}</div>
     }
 
     buildResumeDownloads(){
         var children = [];
-        children.push(<div>Resume</div>)
-        children.push(<Row><img src={download} className="download-img"></img><a href={pdf} download className="download-link">Download</a></Row>)
+        children.push(<div className="slide-left-transition-fade-in"><div className="resume-title">Resume</div></div>)
+        children.push(<div className="fade-in"><Row className="download-content"><img src={download} className="download-img"></img><a href={pdf} download className="download-link">Download</a></Row></div>)
         return <div>{children}</div>
     }
     
     render() {
         var children = []
         children.push(this.buildOverview());
-        children.push(<div className="spacer"></div>)
         children.push(this.buildResumeDownloads()); 
         return <div>{children}</div>;
     }

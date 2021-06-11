@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import {Row} from 'reactstrap';
+import {Row, Fade} from 'reactstrap';
+import Divider from '../components/divider';
 import './bio.css';
+import '../components/animation.css';
 import profile from '../img/ioS_profile.jpg';
 
 class BioPage extends Component {
@@ -9,18 +11,18 @@ class BioPage extends Component {
     profileImage(){
         var children = []
         
-        children.push(<div className="divider"></div>);
+        children.push(<Divider />);
         
         children.push(<img src={profile} className="photo"></img>)
         
-        children.push(<div className="divider"></div>);
+        children.push(<Divider />);
 
 
-        return <Row className="header-row">{children}</Row>
+        return <div className="slide-down-transition"><Row className="header-row">{children}</Row></div>
     }
 
     bioContent(){
-        return <Row className="bio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Row>
+        return <Row className="bio-text"><div className="slide-up-transition-fade-in-delay">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></Row>
     }
     render() { 
         var children = []

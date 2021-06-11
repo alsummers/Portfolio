@@ -6,7 +6,7 @@ import './navigation.css';
 class Navigation extends Component {
     state = {
         pages : [
-            'Bio',
+            'About',
             'Portfolio',
             'Resume',
             'Links'
