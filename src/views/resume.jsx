@@ -31,7 +31,7 @@ class ResumePage extends Component {
 
         var images = []
         for(let i = 0; i < this.state.logos.length; i++){
-            images.push(<IconComponent isLinked={false} logo={this.state.logos[i]} width="25px"/>)
+            images.push(<IconComponent key={i}isLinked={false} logo={this.state.logos[i]} width="25px"/>)
         }
         children.push(<Row>{images}</Row>)
         return <div className="slide-left-transition-fade-in">{children}</div>
@@ -39,8 +39,8 @@ class ResumePage extends Component {
 
     buildResumeDownloads(){
         var children = [];
-        children.push(<div className="slide-left-transition-fade-in"><div className="resume-title">Resume</div></div>)
-        children.push(<div className="fade-in"><Row className="download-content"><img src={download} className="download-img"></img><a href={pdf} download className="download-link">Download</a></Row></div>)
+        children.push(<div key="resume-title" className="slide-left-transition-fade-in"><div className="resume-title">Resume</div></div>)
+        children.push(<div key="download-img" className="fade-in"><Row className="download-content"><img src={download} className="download-img"></img><a href={pdf} download className="download-link">Download</a></Row></div>)
         return <div>{children}</div>
     }
     

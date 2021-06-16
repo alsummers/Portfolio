@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link, useLocation, useRouteMatch} from 'react-router-dom';
 import {Row} from 'reactstrap';
 import TrailsEndApp from './portfolio_views/trails-end-app';
 import trailsEndLogo from '../img/trails-end-logo.png'
@@ -10,15 +11,18 @@ class PortfolioPage extends Component {
         images: [
             {
                 img: trailsEndLogo,
-                text: 'Trail\'s End Mobile App'
+                text: 'Trail\'s End Mobile App',
+                link: '/portfolio/trails-end-app'
             },
             {
                 img: swivylLogo,
-                text: 'Swivyl Management Website'
+                text: 'Swivyl Management Website',
+                link: '/portfolio/swivyl'
             },
             {
                 img:ugallery,
-                text: 'U-Gallery React Project'
+                text: 'U-Gallery React Project',
+                link: '/portfolio/u-gallery'
             }
         ]
      }
@@ -27,16 +31,17 @@ class PortfolioPage extends Component {
         var children = [];
         for(let i = 0; i < this.state.images.length; i++){
             children.push(
-                <div className="container">
+                <Link key={i} to={this.state.images[i].link}><div className="container">
                 <img src={this.state.images[i].img} className="image"></img>
                 <div className="overlay">
                     <div className="text">{this.state.images[i].text}</div>
                 </div>
-            </div>
+            </div></Link>
             )
         }
         return <Row className="project-logos">{children}</Row>
     }
+
     render() { 
         return this.buildRows();
     }

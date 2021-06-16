@@ -2,6 +2,7 @@ import './App.css';
 import Navigation from './views/navigation';
 import BioPage from './views/bio';
 import PortfolioPage from './views/portfolio';
+import TrailsEndApp from './views/portfolio_views/trails-end-app';
 import ResumePage from './views/resume';
 import LinksPage from './views/links';
 import ConstructionScreen from './components/404';

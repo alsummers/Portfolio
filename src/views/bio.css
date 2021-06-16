@@ -1,5 +1,4 @@
 .avatar {
-    width: 5em;
     height: 5em;
     background-color: blue;
     border-radius: 50%;
@@ -19,3 +18,7 @@
 .bio-text{
     font-weight: lighter;
 }
+
+/* .profile-line {
+    margin-top: 2em;
+} */

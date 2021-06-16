@@ -11,18 +11,18 @@ class BioPage extends Component {
     profileImage(){
         var children = []
         
-        children.push(<Divider />);
+        children.push(<Divider key="2" style={{marginTop: "3em"}}/>);
         
-        children.push(<img src={profile} className="photo"></img>)
+        children.push(<img key="3" src={profile} className="photo"></img>)
         
-        children.push(<Divider />);
+        children.push(<Divider key="4" style={{marginTop: "3em"}}/>);
 
 
-        return <div className="slide-down-transition"><Row className="header-row">{children}</Row></div>
+        return <div key="0" className="slide-down-transition"><Row className="header-row">{children}</Row></div>
     }
 
     bioContent(){
-        return <Row className="bio-text"><div className="slide-up-transition-fade-in-delay">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></Row>
+        return <Row key="1" className="bio-text"><div className="slide-up-transition-fade-in-delay">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></Row>
     }
     render() { 
         var children = []

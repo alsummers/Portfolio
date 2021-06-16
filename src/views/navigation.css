@@ -4,7 +4,9 @@
     -webkit-text-fill-color: transparent;
     font-weight: lighter;
     padding: 1em;
-    font-size: 1.5em
+    font-size: 1.5em;
+    width: 10%
+
 }
 
 .Row-tec{
